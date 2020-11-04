@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="提交文件" />
+    <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="提交文件">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -90,7 +92,8 @@
       <workItem from="1604395396851" duration="138000" />
       <workItem from="1604408529097" duration="434000" />
       <workItem from="1604409427386" duration="20000" />
-      <workItem from="1604465246246" duration="2138000" />
+      <workItem from="1604465246246" duration="2393000" />
+      <workItem from="1604469769440" duration="918000" />
     </task>
     <task id="LOCAL-00001" summary="删除文件">
       <created>1604466228619</created>
@@ -113,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604467001999</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="提交文件">
+      <created>1604467683437</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1604467683437</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -129,11 +139,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除文件" />
     <MESSAGE value="提交文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604395515108">
@@ -148,22 +159,22 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1604409445468" />
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1604465317561">
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1604467744721">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604465317561" />
-    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1604465317561">
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1604467744721" />
+    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1604467744719">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604465317561" />
-    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1604465317561">
+    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1604467744719" />
+    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1604467744717">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604465317561" />
-    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1604465317561">
+    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1604467744717" />
+    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1604467744720">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604465317561" />
+    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1604467744720" />
     <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604467007201">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
