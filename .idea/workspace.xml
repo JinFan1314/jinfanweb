@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="提交文件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/index-page.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/index-page.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,8 @@
       <workItem from="1604408529097" duration="434000" />
       <workItem from="1604409427386" duration="20000" />
       <workItem from="1604465246246" duration="2393000" />
-      <workItem from="1604469769440" duration="918000" />
+      <workItem from="1604469769440" duration="2645000" />
+      <workItem from="1604568402609" duration="990000" />
     </task>
     <task id="LOCAL-00001" summary="删除文件">
       <created>1604466228619</created>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604467683437</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="&#10;提交">
+      <created>1604498952256</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1604498952256</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,7 +154,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="删除文件" />
     <MESSAGE value="提交文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="&#10;提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604395515108">
