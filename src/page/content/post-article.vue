@@ -1,10 +1,12 @@
 <template>
-  <div></div>
+  <div>
+    文章发表
+  </div>
 </template>
 
 <script>
 export default {
-  name: "index-page"
+name: "post-article"
 }
 </script>
 
