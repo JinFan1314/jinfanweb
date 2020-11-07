@@ -110,7 +110,7 @@
       <workItem from="1604469769440" duration="2645000" />
       <workItem from="1604568402609" duration="2802000" />
       <workItem from="1604576496826" duration="727000" />
-      <workItem from="1604733076977" duration="3575000" />
+      <workItem from="1604733076977" duration="3928000" />
     </task>
     <task id="LOCAL-00001" summary="删除文件">
       <created>1604466228619</created>
@@ -168,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604735959878</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="文章管理">
+      <created>1604736813780</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1604736813780</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,10 +237,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="446" y="138" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1604734785998" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604735968888">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604736821132">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604735968888" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604736821132" />
     <state x="775" y="258" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604466415280">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
