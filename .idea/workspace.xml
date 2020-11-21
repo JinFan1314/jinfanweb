@@ -22,33 +22,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="文章管理">
-      <change afterPath="$PROJECT_DIR$/src/page/layout/base-view.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/layout/letf-menu.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/layout/right-content.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/login/login.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/operation/manage-category.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/operation/manage-loop.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/settings/friend-link.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/settings/sebsize-info.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/user/email.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/user/info.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/user/list.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/page/user/reset-password.vue" afterDir="false" />
+    <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="页面布局">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/236b7e342305c4ed9f494db11fc73adb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/236b7e342305c4ed9f494db11fc73adb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/57f82f9d0f881d81c9751b99bc00e699.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/57f82f9d0f881d81c9751b99bc00e699.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecdb825b078f69f467eaf6bf5da872e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecdb825b078f69f467eaf6bf5da872e3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/16f6bf83abee18e5c3afd364d1278983.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/16f6bf83abee18e5c3afd364d1278983.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/36c3fd64b6f13c7333bb7b0357252e4a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/36c3fd64b6f13c7333bb7b0357252e4a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/579c9028a09cc10b369e9cd7c1232a96.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/579c9028a09cc10b369e9cd7c1232a96.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bac9e1c4e7a778693c6da35aa9a8c391.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bac9e1c4e7a778693c6da35aa9a8c391.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/c2ee6bd554050020c8dabe7e55ed5f0a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/c2ee6bd554050020c8dabe7e55ed5f0a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/dashboard/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +115,8 @@
       <workItem from="1604733076977" duration="4037000" />
       <workItem from="1604745242619" duration="4000" />
       <workItem from="1605078992798" duration="4284000" />
-      <workItem from="1605718672036" duration="4198000" />
+      <workItem from="1605718672036" duration="4234000" />
+      <workItem from="1605948035443" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="删除文件">
       <created>1604466228619</created>
@@ -205,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604736813780</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="页面布局">
+      <created>1605722917170</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605722917170</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,7 +211,8 @@
     <MESSAGE value="&#10;提交" />
     <MESSAGE value="提交文件" />
     <MESSAGE value="文章管理" />
-    <option name="LAST_COMMIT_MESSAGE" value="文章管理" />
+    <MESSAGE value="页面布局" />
+    <option name="LAST_COMMIT_MESSAGE" value="页面布局" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="419" key="#ESLint" timestamp="1604570289650">
@@ -247,30 +231,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1604569818034" />
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1605083312219">
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1605722932504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605083312219" />
-    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1605083312219">
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605722932504" />
+    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1605722932504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605083312219" />
-    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1605083312219">
+    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605722932504" />
+    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1605722932504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605083312219" />
-    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1605083312219">
+    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605722932504" />
+    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1605722932504">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605083312219" />
+    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605722932504" />
     <state x="446" y="138" key="SettingsEditor" timestamp="1605719657894">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="446" y="138" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605719657894" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1604736821132">
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605722927777">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1604736821132" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605722927777" />
     <state x="775" y="258" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604466415280">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
