@@ -35,8 +35,8 @@ const info = () =>import("@/page/user/info")
 const list = () =>import("@/page/user/list")
 const resetPassword = () =>import("@/page/user/reset-password")
 /*布局*/
-const baseView = () => import("@/page/layout/base-view")
-const rightView = () => import("@/page/layout/right-content")
+const baseView = () => import("@/layout/base-view")
+const rightView = () => import("@/layout/right-content")
 
 
 // 2. 定义路由
@@ -44,7 +44,7 @@ const rightView = () => import("@/page/layout/right-content")
 // 通过 Vue.extend() 创建的组件构造器，
 // 或者，只是一个组件配置对象。
 // 我们晚点再讨论嵌套路由。
-const routes = [
+export const routes = [
     {
         path: '',
         component: baseView,
@@ -52,26 +52,82 @@ const routes = [
         children: [
             {
                 path: '/index',
+                hidden:false,
+                name: '首页',
+                icon: 'el-icon-s-home',
                 component: index
             },
             {
                 path: '/content',
+                name:'内容',
+                icon: 'el-icon-s-order',
+                hidden:false,
                 component: rightView,
                 children:[
                     {
                         path:'post-article',
+                        name:'发表文章',
+                        hidden:false,
+                        icon: 'el-icon-document',
                         component: postArticle,
                     },
                     {
                         path:'manage-article',
+                        name:'文章管理',
+                        hidden:false,
+                        icon: 'el-icon-s-order',
                         component: articleManage,
                     },
                     {
+                        path:'manage-image',
+                        hidden:false,
+                        name:'图片管理',
+                        icon: 'el-icon-picture',
+                        component: imageManage,
+                    },
+                    {
+                        path:'manage-comment',
+                        name:'评论管理',
+                        hidden:false,
+                        icon: 'el-icon-s-comment',
+                        component: commentManage,
+                    }
+
+                ]
+            },
+            {
+                path: '/user',
+                name:'用户',
+                hidden:false,
+                icon: 'el-icon-s-custom',
+                component: rightView,
+                children:[
+                    {
+                        path:'list',
+                        name:'用户列表',
+                        hidden:false,
+                        icon: 'el-icon-more',
+                        component: list,
+                    },
+                    {
+                        path:'reset-password',
+                        hidden:false,
+                        name:'密码重置',
+                        icon: 'el-icon-refresh-left',
+                        component: resetPassword,
+                    },
+                    {
                         path:'email',
+                        name:'邮箱管理',
+                        hidden:false,
+                        icon: 'el-icon-s-finance',
                         component: email,
                     },
                     {
                         path:'info',
+                        name:'用户信息',
+                        hidden:false,
+                        icon: 'el-icon-info',
                         component: info,
                     },
 
@@ -79,53 +135,47 @@ const routes = [
                 ]
             },
             {
-                path: '/user',
-                component: rightView,
-                children:[
-                    {
-                        path:'list',
-                        component: list,
-                    },
-                    {
-                        path:'reset-password',
-                        component: resetPassword,
-                    },
-                    {
-                        path:'manage-image',
-                        component: imageManage,
-                    },
-                    {
-                        path:'manage-comment',
-                        component: commentManage,
-                    },
-
-
-                ]
-            },
-            {
                 path: '/operation',
+                name:'运营',
+                hidden:false,
+                icon: 'el-icon-s-operation',
                 component: rightView,
                 children:[
                     {
                         path:'category',
+                        name:'分类管理',
+                        hidden:false,
+                        icon:'el-icon-s-tools',
                         component: categoryManage,
                     },
                     {
                         path:'loop',
+                        name:'轮播图管理',
+                        hidden:false,
+                        icon:'el-icon-picture-outline',
                         component: loopManage,
                     }
                 ]
             },
             {
                 path: '/settings',
+                name:'设置',
+                hidden:false,
+                icon:'el-icon-setting',
                 component: rightView,
                 children:[
                     {
                         path:'web-size-info',
+                        name:'网站信息',
+                        icon:'el-icon-info',
+                        hidden:false,
                         component: webSizeInfo,
                     },
                     {
                         path:'friend-link',
+                        name:'友情链接',
+                        icon:'el-icon-link',
+                        hidden:false,
                         component: friendLink,
                     }
                 ]

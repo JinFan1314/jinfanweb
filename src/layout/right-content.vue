@@ -9,7 +9,7 @@
 
 <script>
 export default {
-name: "right-conten"
+name: "right-content"
 }
 </script>
 

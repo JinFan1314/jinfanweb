@@ -7,7 +7,7 @@
           <leftMenu/>
         </el-aside>
         <el-container>
-          <el-main>
+          <el-main id="main-box">
             <div class="content">
               <router-view/>
             </div>
@@ -20,7 +20,7 @@
 
 <script>
 export default {
-  name: "base",
+  name: "base-view",
   mounted() {
     //动态设置侧边高度
     let leftMenuBox = document.getElementById('left-menu-list-box')
@@ -35,22 +35,21 @@ export default {
 
 
 <style>
-.el-header {
-  background-color: #0084FF;
-  color: #333;
-  text-align: center;
-  line-height: 46px;
-  height: 46px !important;
-}
+ #admin-header-box {
+    background-color: #0084FF;
+    color: #333;
+    text-align: center;
+    line-height: 46px;
+    height: 46px !important;
+  }
 
-.el-aside {
-  text-align: center;
-  line-height: 200px;
-}
+  #left-menu-list-box {
+    line-height: 200px;
+  }
 
-.el-main {
-  background-color: #E9EEF3;
-  color: #333;
-  text-align: center;
+  #main-box {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
 }
 </style>
