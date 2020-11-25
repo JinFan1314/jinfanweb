@@ -1,27 +1,28 @@
 <template>
   <div>
-    <el-menu default-active="1-1" class="el-menu-vertical-demo">
-      <el-submenu index="1">
-        <template slot="title">
-          <i class="el-icon-location"></i>
-          <span>导航一</span>
-        </template>
-          <el-menu-item index="1-1">选项1</el-menu-item>
-          <el-menu-item index="1-2">选项2</el-menu-item>
-          <el-menu-item index="1-3">选项3</el-menu-item>
-      </el-submenu>
-      <el-menu-item index="2">
-        <i class="el-icon-menu"></i>
-        <span slot="title">导航二</span>
-      </el-menu-item>
-      <el-menu-item index="3" >
-        <i class="el-icon-document"></i>
-        <span slot="title">导航三</span>
-      </el-menu-item>
-      <el-menu-item index="4">
-        <i class="el-icon-setting"></i>
-        <span slot="title">导航四</span>
-      </el-menu-item>
+    <el-menu default-active="0"
+             unique-opened="true"
+             class="el-menu-vertical">
+      <template v-for="(item,index) in menuList">
+        <router-link :to="item.path" v-if="!item.children&&!item.hidden" :key="index">
+          <el-menu-item :index="index">
+            <i :class="item.icon"></i>
+            <span slot="title">{{item.name}}</span>
+          </el-menu-item>
+        </router-link>
+        <el-submenu v-if="!item.hidden&&item.children"  :key="index" :index="index" >
+          <template slot="title">
+            <i :class="item.icon"></i>
+            <span>{{item.name}}</span>
+          </template>
+          <router-link :to="item.path+'/'+subItem.path"  v-for="(subItem,subIndex) in item.children" :key="subIndex">
+            <el-menu-item  :index="index+'-'+subIndex"  v-if="!subItem.hidden">
+              <i :class="subItem.icon"></i>
+              <span slot="title" v-text="subItem.name"></span>
+            </el-menu-item>
+          </router-link>
+        </el-submenu>
+      </template>
     </el-menu>
   </div>
 </template>
@@ -30,13 +31,22 @@
 import {routes} from '@/router';
 export default {
   name: "left-menu",
+  data(){
+    return{
+      menuList:[],
+    }
+  },
   mounted() {
+    let menuList = routes[0];
+    this.menuList=menuList.children;
     // eslint-disable-next-line no-console
-    console.log(routes);
+    console.log(this.menuList);
   }
 }
 </script>
 
 <style scoped>
-
+  .el-menu-vertical a{
+    text-decoration: none;
+  }
 </style>

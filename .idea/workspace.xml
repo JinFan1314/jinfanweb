@@ -23,20 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="页面布局">
+      <change afterPath="$PROJECT_DIR$/src/layout/top-header.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/236b7e342305c4ed9f494db11fc73adb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/236b7e342305c4ed9f494db11fc73adb.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/57f82f9d0f881d81c9751b99bc00e699.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/57f82f9d0f881d81c9751b99bc00e699.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecdb825b078f69f467eaf6bf5da872e3.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/ecdb825b078f69f467eaf6bf5da872e3.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/16f6bf83abee18e5c3afd364d1278983.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/16f6bf83abee18e5c3afd364d1278983.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/36c3fd64b6f13c7333bb7b0357252e4a.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/36c3fd64b6f13c7333bb7b0357252e4a.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/579c9028a09cc10b369e9cd7c1232a96.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/579c9028a09cc10b369e9cd7c1232a96.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bac9e1c4e7a778693c6da35aa9a8c391.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/vue-loader/bac9e1c4e7a778693c6da35aa9a8c391.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/base-view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/base-view.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/left-menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/left-menu.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/dashboard/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/dashboard/index.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/layout/base-view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/base-view.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/layout/letf-menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/left-menu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/page/layout/right-content.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/right-content.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../gitClonePorject/SobBlogSystem/sobblogadmin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -90,7 +84,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -136,6 +130,13 @@
       <workItem from="1605718672036" duration="4234000" />
       <workItem from="1605948035443" duration="931000" />
       <workItem from="1605949168387" duration="6433000" />
+      <workItem from="1605957825500" duration="732000" />
+      <workItem from="1606035947960" duration="1853000" />
+      <workItem from="1606050458669" duration="999000" />
+      <workItem from="1606128948215" duration="363000" />
+      <workItem from="1606219565382" duration="5000" />
+      <workItem from="1606301007767" duration="6459000" />
+      <workItem from="1606339208214" duration="948000" />
     </task>
     <task id="LOCAL-00001" summary="删除文件">
       <created>1604466228619</created>
@@ -214,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605948084243</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="页面布局">
+      <created>1605957868439</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605957868439</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -241,10 +249,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="页面布局" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="806" y="419" key="#ESLint" timestamp="1604570289650">
+    <state x="806" y="419" key="#ESLint" timestamp="1606036497734">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="806" y="419" key="#ESLint/0.0.1920.1050@0.0.1920.1050" timestamp="1604570289650" />
+    <state x="806" y="419" key="#ESLint/0.0.1920.1050@0.0.1920.1050" timestamp="1606036497734" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604395515108">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -253,34 +261,34 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="496" y="90" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1604466989361" />
-    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1604569818034">
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1606339633127">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1604569818034" />
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1605957800860">
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606339633127" />
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1606307552188">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1605957800860" />
-    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1605957800860">
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
+    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1606307552188">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1605957800860" />
-    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1605957800860">
+    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
+    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1606307552188">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1605957800860" />
-    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1605957800860">
+    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
+    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1606307552188">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1605957800860" />
-    <state x="446" y="138" key="SettingsEditor" timestamp="1605719657894">
+    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
+    <state x="446" y="138" key="SettingsEditor" timestamp="1606340162276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="446" y="138" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605719657894" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605948125501">
+    <state x="446" y="138" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606340162276" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605957876794">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605948125501" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605957876794" />
     <state x="775" y="258" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604466415280">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -293,10 +301,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="dock-window-2/0.0.1920.1050@0.0.1920.1050" timestamp="1604735841254" />
-    <state x="696" y="399" width="647" height="280" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1604569822083">
+    <state x="696" y="399" width="647" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1606339641699">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="696" y="399" width="647" height="280" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1604569822083" />
+    <state x="696" y="399" width="647" height="285" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1606339641699" />
     <state x="616" y="243" key="run.anything.popup" timestamp="1605721373000">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
