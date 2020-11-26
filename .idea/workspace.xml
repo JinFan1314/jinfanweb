@@ -22,15 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="页面布局">
-      <change afterPath="$PROJECT_DIR$/src/layout/top-header.vue" afterDir="false" />
+    <list default="true" id="f3320a3c-3388-4abf-a4df-8ca17d425b39" name="Default Changelist" comment="导航栏">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/236b7e342305c4ed9f494db11fc73adb.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/236b7e342305c4ed9f494db11fc73adb.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/babel-loader/57f82f9d0f881d81c9751b99bc00e699.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/babel-loader/57f82f9d0f881d81c9751b99bc00e699.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/base-view.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/base-view.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/left-menu.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/left-menu.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/page/login/login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/page/login/login.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +80,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Font" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -136,7 +132,10 @@
       <workItem from="1606128948215" duration="363000" />
       <workItem from="1606219565382" duration="5000" />
       <workItem from="1606301007767" duration="6459000" />
-      <workItem from="1606339208214" duration="948000" />
+      <workItem from="1606339208214" duration="1561000" />
+      <workItem from="1606350936781" duration="180000" />
+      <workItem from="1606393758539" duration="371000" />
+      <workItem from="1606394143558" duration="11884000" />
     </task>
     <task id="LOCAL-00001" summary="删除文件">
       <created>1604466228619</created>
@@ -222,7 +221,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605957868439</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="导航栏">
+      <created>1606340306394</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1606340306394</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +252,8 @@
     <MESSAGE value="提交文件" />
     <MESSAGE value="文章管理" />
     <MESSAGE value="页面布局" />
-    <option name="LAST_COMMIT_MESSAGE" value="页面布局" />
+    <MESSAGE value="导航栏" />
+    <option name="LAST_COMMIT_MESSAGE" value="导航栏" />
   </component>
   <component name="WindowStateProjectService">
     <state x="806" y="419" key="#ESLint" timestamp="1606036497734">
@@ -265,30 +272,30 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606339633127" />
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1606307552188">
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom" timestamp="1606400173461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
-    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1606307552188">
+    <state width="1900" height="285" key="GridCell.Tab.0.bottom/0.0.1920.1050@0.0.1920.1050" timestamp="1606400173461" />
+    <state width="1900" height="285" key="GridCell.Tab.0.center" timestamp="1606400173461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
-    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1606307552188">
+    <state width="1900" height="285" key="GridCell.Tab.0.center/0.0.1920.1050@0.0.1920.1050" timestamp="1606400173461" />
+    <state width="1900" height="285" key="GridCell.Tab.0.left" timestamp="1606400173461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
-    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1606307552188">
+    <state width="1900" height="285" key="GridCell.Tab.0.left/0.0.1920.1050@0.0.1920.1050" timestamp="1606400173461" />
+    <state width="1900" height="285" key="GridCell.Tab.0.right" timestamp="1606400173461">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606307552188" />
-    <state x="446" y="138" key="SettingsEditor" timestamp="1606340162276">
+    <state width="1900" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1606400173461" />
+    <state x="446" y="138" key="SettingsEditor" timestamp="1606394034276">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="446" y="138" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606340162276" />
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1605957876794">
+    <state x="446" y="138" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1606394034276" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2" timestamp="1606340587604">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1605957876794" />
+    <state x="552" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1606340587604" />
     <state x="775" y="258" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604466415280">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
